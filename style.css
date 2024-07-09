@@ -1,0 +1,100 @@
+#overlay {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #202020;
+  transition: 1s 0.4s;
+}
+
+#progress {
+  height: 1px;
+  background: #FFC107;
+  position: absolute;
+  width: 0; /* will be increased by JS */
+  top: 60%;
+}
+
+#progstat {
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  margin-top: -40px;
+  width: 100%;
+  text-align: center;
+  color: #FFC107;
+}
+
+form {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+#imgfondo {
+  background-image: url(images/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.descripcion {
+  margin-top: 20px;
+  margin-right: 2vw;
+}
+
+.titulo {
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.subtitulo {
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.subtitulo2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+.cuerpo {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+.negrita {
+  font-weight: 500;
+}
+
+.blanco {
+  color: white;
+}
+
+.gris {
+  color: #202020;
+}
+
+.amarillo {
+  color: #FFE500;
+}
+
+.amarillo2 {
+  color: #FFC107;
+}
+
+.fondoamarillo {
+  background-color: #FFE500;
+}
+
+.fondoamarillo2 {
+  background-color: #FFC107;
+}/*# sourceMappingURL=style.css.map */
